@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🍅 Tomato Gallery</title>
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+
+.gallery{
+    max-width:1200px;
+    margin:auto;
+    padding:40px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+    transition:.4s;
+}
+
+.card:hover{
+    transform:scale(1.05);
+}
+
+.card img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+}
+
+.card h3{
+    color:#d60000;
+    text-align:center;
+    margin:15px 0;
+}
+
+.card p{
+    padding:0 15px 20px;
+    text-align:center;
+    line-height:1.6;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>🍅 Tomato Gallery</h1>
+<p>Meet Our VIP Tomatoes 😂</p>
+</header>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="gallery.html">Gallery</a>
+<a href="memes.html">Memes</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+<section class="gallery">
+
+<div class="card">
+<img src="https://picsum.photos/400/300?random=1" alt="Tomato">
+<h3>King Tomato 👑</h3>
+<p>Sabziyon ka asli king.</p>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/400/300?random=2" alt="Tomato">
+<h3>Rich Tomato 💰</h3>
+<p>Price dekhkar log selfie lete hain.</p>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/400/300?random=3" alt="Tomato">
+<h3>Fitness Tomato 💪</h3>
+<p>Vitamin C ka superstar.</p>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/400/300?random=4" alt="Tomato">
+<h3>Angry Tomato 😡</h3>
+<p>Mujhe ketchup mat bolo!</p>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/400/300?random=5" alt="Tomato">
+<h3>Happy Tomato 😄</h3>
+<p>Pizza mera best friend hai.</p>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/400/300?random=6" alt="Tomato">
+<h3>Legend Tomato 🏆</h3>
+<p>Salad ka superstar.</p>
+</div>
+
+</section>
+
+<footer>
+🍅 © 2026 Tamatar.com | Gallery of Legends
+</footer>
+
+</body>
+</html>
